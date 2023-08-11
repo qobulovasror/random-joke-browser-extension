@@ -1,0 +1,17 @@
+{
+    "name": "Joke",
+    "description": "random joke brawser extention",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "64": "/assets/icons/joke64.png",
+      "128": "/assets/icons/joking128.png"
+    }
+  }
