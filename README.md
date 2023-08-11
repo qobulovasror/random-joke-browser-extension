@@ -2,6 +2,8 @@
 
 Add a dash of humor to your browsing sessions with the Random Joke Browser Extension. This extension fetches jokes from the Random Joke API and displays them whenever you open a new tab. It's a great way to start your day with a smile!
 
+![Random-Joke-Extension](https://github.com/qobulovasror/random-joke-browser-extention/assets/71517683/561a5710-4d58-450f-a151-d081031cca85)
+
 🤣 Random Joke Browser Extension
 
 Add a touch of laughter to your browsing experience with the Random Joke Browser Extension! This lightweight and fun extension delivers a daily dose of humor straight to your browser. Powered by the Random Joke API, this extension fetches and displays a new joke every time you open a new tab, making your online adventures a little more cheerful.
@@ -27,11 +29,15 @@ If you're interested in contributing to the development of this extension or mod
    ```bash
    gh repo clone qobulovasror/random-joke-browser-extention
    ```
-2. Navigate to the project directory:
+   or
+   ```bash
+   git clone https://github.com/qobulovasror/random-joke-browser-extention
+   ```
+3. Navigate to the project directory:
    ```bash
    cd random-joke-extension
    ```
-3. Load the extension in your browser:
+4. Load the extension in your browser:
   Chrome:
     3.1. Open the Extension Management page by navigating to chrome://extensions.
     3.2. Enable "Developer mode" in the top-right corner.
@@ -40,11 +46,11 @@ If you're interested in contributing to the development of this extension or mod
     3.1. Enter about:debugging in the URL bar.
     3.2. Click the "This Firefox" tab.
     3.3. Click the "Load Temporary Add-on" button and select the extension directory.
-4. Make changes:
+5. Make changes:
   Feel free to modify the code to suit your preferences or add new features. The main logic is in popur.js.
-5. Test your changes
+6. Test your changes
   After making your changes, open a new tab to test if the joke displays correctly.
-6. Share your improvements
+7. Share your improvements
 
 ### Credits
   This extension utilizes the [Random Joke API](https://github.com/15Dkatz/official_joke_api) to fetch jokes.
